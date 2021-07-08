@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj" />
+    <ProjectReference Include="..\LibraryForDirect\LibraryForDirect.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FormsLibrary">
+      <HintPath>..\..\WebF\FormsLibrary\bin\Debug\FormsLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
